@@ -1,0 +1,100 @@
+{
+    "item1": {
+      "nombre": "Casa Prefabricada 28 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-28-m2.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-28-m2",
+      "detalles": {
+        "dimensiones": {
+            "Sala": 17,
+            "Baño": 3,
+            "Patio": 8
+        },
+        "informacion" : {
+            "nombreTitle": "Hobby Garden 28 m2",
+            "titulo": "Ser dueño de la casa de hobbies de tus sueños nunca ha sido más fácil.",
+            "descripcion": "La casa prefabricada Hobby Garden, que puedes usar para los fines de semana o para vacaciones cortas, es muy elegante gracias a su bonito diseño. Con esta casa, puedes escucharte a ti mismo, lejos de todo, y pasar unas relajantes vacaciones con tus seres queridos. Esta bonita casa prefabricada de un solo piso consta de una sala de estar, un baño y una terraza. Gracias a su fácil instalación, puedes recibir tu casa en muy poco tiempo después de ser producida. Gracias a su estructura modular, la fabricación se realiza en pocas semanas. Es resistente a los terremotos gracias a su sólida estructura. Con Karmod, tener la casa de sus sueños nunca ha sido tan fácil..."
+        },
+        "images": {
+            "image1": "https://karmod.es/images/icerik/kapak/casa-prefabricada-28-m2-0.jpg",
+            "image2": "https://karmod.es/images/icerik/kapak/casa-prefabricada-28-m2-1.jpg",
+            "image3": "https://karmod.es/images/icerik/kapak/casa-prefabricada-28-m2-2.jpg"
+        }
+      } 
+    },
+    "item2": {
+      "nombre": "Casa Prefabricada 45 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-45-m2.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-45-m2"
+    },
+    "item3": {
+      "nombre": "Casa prefabricada 51 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-51-m2-una-planta.jpg",
+      "link": "https://karmod.es/producto/51-m2-casa-prefabricada"
+    },
+    "item4": {
+      "nombre": "Casa prefabricada 64 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-64-m2.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-64-m2"
+    },
+    "item5": {
+      "nombre": "Casa prefabricada 73 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-73-m2-modelo-montana.jpg",
+      "link": "https://karmod.es/producto/73-m2-casa-prefabricada"
+    },
+    "item6": {
+      "nombre": "Casa prefabricada 75 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-75-m2-porche.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-75-m2"
+    },
+    "item7": {
+      "nombre": "Casa prefabricada 82 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-82-m2-techo-alto.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-82-m2"
+    },
+    "item8": {
+      "nombre": "Casa prefabricada 87 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-87-m2-tipo-rural.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-87-m2"
+    },
+    "item9": {
+      "nombre": "Casa Prefabricada 87 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-87-m2-una-planta.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-87-m2-casa-prefabricada"
+    },
+    "item10": {
+      "nombre": "Casa prefabricada 95 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-95-m2-rural-mini.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-95-m2-rural-mini"
+    },
+    "item11": {
+      "nombre": "Casa prefabricada 97 m2",
+      "img": "https://karmod.es/images/icerik/kapak/97-m2-casa-prefabricada-familiar.jpg",
+      "link": "https://karmod.es/producto/97-m2-casa-prefabricada-familiar"
+    },
+    "item12": {
+      "nombre": "Casa prefabricada 100 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-100-m2-una-planta-grande.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-100-m2-una-planta-grande"
+    },
+    "item13": {
+      "nombre": "Casa prefabricada 102 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-102-m2-dos-habitaciones-una-planta.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-102-m2-dos-habitaciones-una-planta"
+    },
+    "item14": {
+      "nombre": "Casa prefabricada 103 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-103-m2-con-porche.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-103-m2-con-porche"
+    },
+    "item15": {
+      "nombre": "Casa prefabricada 123 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-123-m2-techo-alto.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-123-m2-techo-alto"
+    },
+    "item16": {
+      "nombre": "Casa prefabricada verano 123 m2",
+      "img": "https://karmod.es/images/icerik/kapak/casa-prefabricada-verano-123-m2.jpg",
+      "link": "https://karmod.es/producto/casa-prefabricada-verano-123-m2"
+    }
+  }
+  

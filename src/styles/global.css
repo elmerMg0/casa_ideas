@@ -1,0 +1,39 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --colorMain: #202954;
+    --colorYellow: #FF9B00;
+    --colorGris: #767676;
+    --colorGrisSecundary: #CACBD1;
+    --colorSecundary: #00AAD9;
+    --colorWhite: #FFFFFF;
+    --colorGrisSoft: #7981A3;
+}
+
+/* Reset de estilos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1600px;
+    width: 90%;
+    margin: 0 auto; 
+}
