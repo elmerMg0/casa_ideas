@@ -1,12 +1,12 @@
 import { Footer } from "../../components/footer/Footer";
-import { Header } from "../../components/header/Header";
 import { Houses } from "../../components/houses/Houses";
+import { Welcome } from "../../components/Welcome";
 
 export function Landing (){
     return(
         <>
             <section className="content">
-                <Header/>
+                <Welcome/>
                 <Houses/>   
             </section>
             <Footer/>

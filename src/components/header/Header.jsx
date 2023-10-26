@@ -3,7 +3,7 @@ import './header.css'
 import image from '../../assets/img/logoCasLaurel.png'
 import { useState } from 'react'
 import { Navigation } from './navigation/Navigation'
-export function Header(){
+export function Header({children}){
     const [activo, setActivo] = useState(false)
     const handleChange = () => {
         setActivo(!activo)
@@ -28,6 +28,7 @@ export function Header(){
                  </div>
             </section>
         </header>
+        {children}
         </>
     )
 }   

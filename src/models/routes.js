@@ -1,5 +1,6 @@
 export const PublicRoutes = {
     PATH: '/',
     HOME: 'home',
-    DETAILS: 'details'
+    DETAILS: 'details',
+    CONTACT: 'contact'
 }

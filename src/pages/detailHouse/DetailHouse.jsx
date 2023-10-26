@@ -3,13 +3,12 @@ import { Dimensions } from "../../components/detailHouse/Dimensions";
 import { Information } from "../../components/detailHouse/Information";
 import { SliceImage } from "../../components/detailHouse/SliceImage";
 import { Footer } from "../../components/footer/Footer";
-import { Header } from "../../components/header/Header";
 import { MyContext } from "../../context/MyContext";
 import housesJson from '../../data/houses.json'
 import './detailHome.css'
 
 export function DetailHouse(){
-    const { nameHouse, setNameHouse } = useContext(MyContext);
+    const { nameHouse } = useContext(MyContext);
     const [infoHouse, setInfoHouse] = useState(null)
     useEffect(() => {
         /* fILTRAR de un archiov  */
@@ -25,7 +24,6 @@ export function DetailHouse(){
 
     if(infoHouse && Object.keys(infoHouse).length === 0)return
     return <>
-    <Header/>
      <section className="container detailhouse">
         <h4 className="title">{nameHouse}</h4>
         <section className="detail-house-main">
