@@ -19,8 +19,7 @@ export function Footer(){
                 </ul>
                 <div className='footer-contact'>
                     <span>Llamanos</span>                    
-                    <a href="https://api.whatsapp.com/send?phone=59174369570&text=Hola,%20más%20información%20por%20favor.
-" target='_blank'>+591 74369570</a>                    
+                    <a href="https://api.whatsapp.com/send?phone=59174369570&text=Hola,%20más%20información%20por%20favor." rel='dhfdf' target='_blank'>+591 74369570</a>                    
                 </div>
             </section>
         </footer>

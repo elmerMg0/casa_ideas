@@ -1,5 +1,5 @@
 :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
     line-height: 1.5;
     font-weight: 400;
     font-synthesis: none;
@@ -9,6 +9,7 @@
     -webkit-text-size-adjust: 100%;
     --colorMain: #202954;
     --colorMainSecundary: #00436a;
+    --colorMainTercer: #91bed8;
     --colorYellow: #FF9B00;
     --colorYellowSecundary: #FFC107;
     --colorGris: #767676;
@@ -17,7 +18,10 @@
     --colorWhite: #FFFFFF;
     --colorGrisSoft: #7981A3;
     --colorRed: #e02b20;
+
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Reset de estilos */
 body,
@@ -39,4 +43,7 @@ li {
     max-width: 1000px;
     width: 90%;
     margin: 0 auto; 
+}
+body{
+    text-align: center;
 }

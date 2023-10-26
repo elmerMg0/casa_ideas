@@ -10,12 +10,35 @@
     align-items: center;
     margin: 15px 0px;   
     transition: 0.5s;
+    -webkit-box-shadow: 0 0 15px rgba(0,109,130,.16);
+    box-shadow: 0 0 15px rgba(0,109,130,.16);
+    padding-bottom: 25px;
+    /* box-shadow: 0 0 15px rgba(0,109,130,.16);
   /*   background-color: rgba(17, 25, 40, 0.25);
     backdrop-filter: blur(16px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.125);
     filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125)); */
 }
 
+.card-house h5{
+}
+.card-house button{
+    padding: 10px 10px;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.card-house__contact{
+    background-color: var(--colorMainTercer);
+    color: var(--colorMain);
+    margin-bottom: 10px;
+}
+.card-house__details{
+    background-color: var(--colorMain);
+    color: var(--colorWhite);
+}
 
 .card-house-img{
 }
@@ -44,12 +67,14 @@
 
 .card-house-img img{
     width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .content-main h2{
     margin-top: 20px;
     margin-bottom: 20px;
     color: var(--colorMain);
+    font-size: 21px;
 }
 .content-main h2 + p{
     margin-bottom: 15px;
