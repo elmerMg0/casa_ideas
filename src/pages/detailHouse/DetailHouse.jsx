@@ -9,24 +9,32 @@ import housesJson from '../../data/houses.json'
 import './detailHome.css'
 
 export function DetailHouse(){
-    const { nameHouse } = useContext(MyContext);
+    const { nameHouse, setNameHouse } = useContext(MyContext);
     const [infoHouse, setInfoHouse] = useState(null)
     useEffect(() => {
         /* fILTRAR de un archiov  */
 
-        const newData = Object.values(housesJson);
-        setInfoHouse( newData.find(house => house.nombre = nameHouse));
+        const newData = structuredClone(Object.values(housesJson));
+        setInfoHouse( newData.find(house => house.nombre === nameHouse));
+        /* return () => {
+            setInfoHouse(null)
+            setNameHouse('')
+        } */
     },[nameHouse])
 
-    console.log(nameHouse);
 
     if(infoHouse && Object.keys(infoHouse).length === 0)return
     return <>
     <Header/>
-     <section className="container">
+     <section className="container detailhouse">
         <h4 className="title">{nameHouse}</h4>
-        <SliceImage images={infoHouse?.detalles?.images}/>
-        <Dimensions dimen={infoHouse?.detalles?.dimensiones}/>
+        <section className="detail-house-main">
+            <SliceImage images={infoHouse?.detalles?.images}/>
+            <div>
+                <h4 className="subtitle">Caracteristicas del Producto</h4>
+                <Dimensions dimen={infoHouse?.detalles?.dimensiones}/>
+            </div>
+        </section>
         <Information info={infoHouse?.detalles?.informacion}/>
     </section>
     <Footer/>

@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--colorMain);
+    background: linear-gradient(to right, #202954, #00436a);
     color: var(--colorGrisSoft);
     padding: 20px;
 }
@@ -18,6 +18,10 @@
     flex-direction: column;
     align-items: end;
     font-size: 15px;
+}
+.footer-contact a{
+    color: var(--colorGrisSoft);
+    text-decoration: none;
 }
 .footer-social__icon{
     display: flex;

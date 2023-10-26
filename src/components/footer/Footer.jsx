@@ -3,22 +3,24 @@ import { FacebookIcon, InstagramIcon, WhatsappIcon } from '../icons/Icons'
 import './footer.css'
 export function Footer(){
     return(
-        <footer className='footer'>
-            <section className='footer-header'>
+        <footer id='contacto' className='footer'>
+            <section className='footer-header container'>
                 <ul className='footer-social'>
-                    <div className='footer-social__icon'>
+                    <a href="https://api.whatsapp.com/send?phone=59174369570&text=Hola,%20más%20información%20por%20favor.
+" target='_blank' className='footer-social__icon'>
                         <FacebookIcon color={colors.GRISSOFT}/>
-                    </div>
-                    <div className='footer-social__icon'>
+                    </a>
+                    <a className='footer-social__icon'>
                         <InstagramIcon color={colors.GRISSOFT}/>
-                    </div>
-                    <div className='footer-social__icon'>
+                    </a>
+                    <a className='footer-social__icon'>
                         <WhatsappIcon color={colors.GRISSOFT}/>
-                    </div>
+                    </a>
                 </ul>
                 <div className='footer-contact'>
                     <span>Llamanos</span>                    
-                    <span>+591 76457851</span>                    
+                    <a href="https://api.whatsapp.com/send?phone=59174369570&text=Hola,%20más%20información%20por%20favor.
+" target='_blank'>+591 74369570</a>                    
                 </div>
             </section>
         </footer>

@@ -1,6 +1,6 @@
 export function Dimensions ({dimen}){
     if(!dimen || Object.keys(dimen).length === 0)return;
-    const {Sala , Baño, Patio } = dimen;
+    const {Sala , Baño, Patio, Cocina, Dormitorio, Entrada } = dimen;
     return (
         <section>
             <table>
@@ -22,6 +22,27 @@ export function Dimensions ({dimen}){
                         <td>Patio</td>
                         <td>{ Patio}</td>
                     </tr>
+                    {
+                        Cocina > 0 &&  <tr>
+                        <td>Cocina</td>
+                        <td>{ Cocina}</td>
+                    </tr>
+                    }
+                    {
+                        Dormitorio?.length > 0 &&  <tr>
+                        <td>Dormitorio</td>
+                        <td>{ Dormitorio}</td>
+                    </tr>
+                    }
+                     {
+                        Entrada &&  
+                    <tr>
+                        <td>Entrada</td>
+                        <td>{ Entrada}</td>
+                    </tr>
+                    }
+                    
+                   
                 </tbody>
             </table>
         </section>
